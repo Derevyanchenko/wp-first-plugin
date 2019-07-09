@@ -1,0 +1,31 @@
+.wp-block-preformatted {
+    margin: auto;
+    display: block;
+}
+
+.dd_box_wrapper {
+    display: flex;
+}
+
+.dd_box_item {
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 30px 30px;
+    max-width: 360px;
+    width: 100%;
+}
+
+.dd_box_item a{
+    display: block;
+
+}
+.dd_box_item p {
+    margin-top: 10px;
+}
+
+.dd_box_image img{
+    display: block;
+}
