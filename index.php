@@ -23,10 +23,10 @@ class DD_Test
         $this->setup_options();
 
         acf_add_options_sub_page(array(
-            'page_title'    => 'Quotes System Settings',
-            'menu_title'    => 'Quotes System Settings',
+            'page_title'    => 'DD Settings',
+            'menu_title'    => 'DD Settings',
             'parent_slug'   => 'edit.php?post_type=offers',
-            'post_id'       => 'quotesystem_options',
+            'post_id'       => 'dd_options',
         ));
     }
 
